@@ -1,0 +1,321 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border:1px solid red; */
+}
+
+.container{
+    height:auto;
+    width:100%;
+    font-family: "Roboto Serif", serif;
+    background-color: black;
+    background-blend-mode: hard-light;
+}
+.smallcontainer{
+    height:100vh;
+    width:100vw;
+    background-image: url(Background.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom:15px solid gray;
+}
+.navbar{
+    height:20%;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-inline:5%;
+}
+.navlogo{
+    height:100%;
+    width:50%;
+}
+.navlogo img{
+     width:50%;
+     height:100%;
+}
+.navbuttons{
+    height:35px;
+    width:50%;
+    text-align: center;
+    display:flex;
+    justify-content: end;
+    align-items: center;  
+}
+.navbuttons button{
+    height:35px;
+    width:25%;
+    column-gap:30px;
+    background:none;
+    border-radius: 5px;
+    font-weight: 700;
+    border:2px solid white;
+}
+#eng-btn{
+    background-color:black;
+    color:white;
+}
+#sign-in-btn{
+    width:15%;
+    background-color: red;
+    color:white;
+    margin-left:20px;
+}
+
+/* ------------navbar end-------------------------- */
+
+.hero-section{
+    height:auto;
+    width:100%;
+}
+.hero-box{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    text-align: center;
+    color:#ffffff;
+    margin-block:80px;
+}
+.hero-box h2{
+    font-size: 4rem;
+    color:white;
+}
+.hero-box p{
+    font-size: 1.3rem;
+    margin-block:10px;
+}
+.hero-buttons{
+    height:auto;
+    width:100%;
+}
+.hero-btn{
+    height:60px;
+    width:25%;
+    border-radius:5px;
+    background-color: black;
+    color:white;
+    font-size: 1.3rem;
+}
+.hero-btn:hover{
+    border:2px solid white;
+}
+#email-btn{
+    text-align: start;
+    padding-left:15px;
+}
+#get-started-btn{
+    margin-left:10px;
+    width:15%;
+    gap:10px;
+    background-color: red;
+}
+#fa-solid-rightangle{
+    margin-left:5px;
+}
+
+
+
+
+/* -------hero section end-------------- */
+
+.section1{
+    height:auto;
+    width:100%;
+    background-color: black;
+    border-bottom:15px solid gray;
+    padding-block:1%;
+}
+.main{
+    height:auto;
+    width:85%;
+    margin:auto;
+    padding-block:50px;
+}
+.block1{
+    height:auto;
+    width:100%;
+    padding-block:20px;
+}
+.block1 h3{
+    color:white;
+}
+.block1 button{
+    height:30px;
+    width:100px;
+    color:white;
+    background-color: black;
+    border:1px solid white;
+    border-radius:5px;
+    margin-block:5px;
+}
+.block2{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.block2 img{
+  height:20%;
+  width:15%;
+  border-radius: 5px;
+} 
+.header{
+    color:white;
+    font-size: 1.3rem;
+    margin-block:50px;
+}
+.block3{
+    height:auto;
+    width:100%;
+    color:white;
+    padding-block:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.card{
+    height:auto;
+    width:48%;
+    gap:10px;
+    padding-inline:15px;
+    padding-block:15px;
+    border-radius:10px;
+    background-color: rgb(11, 11, 40);
+    /* background-color: rgb(2, 2, 32); */
+}
+.card p{
+    margin-top:30px;
+}
+.card img{
+    margin-top:30px;
+    position:relative;
+    left:80%;
+}
+.card2 p{
+   margin-block:25px;
+}
+.card:hover{
+    border:1px solid white;
+}
+
+/* --------Section1 end-------------------- */
+   
+.section2{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:15px solid gray;
+    background-color: black;
+    padding-block:6%;
+}
+.text-section{
+    height:auto;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.text-div h2{
+    font-size: 3rem;
+   
+}
+.text-div p{
+    font-size: 1.2rem;
+    margin-top:20px;
+}
+.video-section{
+    height:auto;
+    width:50%;
+}
+.overlapping img{
+    width:70%;
+   
+}
+/* ------------section2 end------------------- */
+.section-3{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:15px solid gray;
+    padding-block:5%;
+}
+.video-section-2{
+    height:auto;
+    width:50%;
+    display:flex;
+    justify-content:end;
+    align-items: center;
+}
+.text-div-2{
+    width:80%;
+}
+.text-section-2{
+    height:auto;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-div-2{
+    color:white;
+}
+.text-div-2{
+    font-size: 2rem;
+}
+.text-div-2 p{
+    margin-top:30px;
+    font-size: 1.3rem;
+}
+
+/* ---------combination of section2 and section3 end----------- */
+
+.faq-section{
+    height:auto;
+    width:100%;
+    color:#ffffff;
+    padding-bottom:60px;
+}
+.faq-section h2{
+    margin-block:3%;
+    text-align: center;
+}
+.faq-div{
+    height:auto;
+    width:85%;
+    margin:auto;
+}
+.box{
+    height:auto;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline:30px;
+    padding-block:15px;
+    margin-top:10px;
+    font-size: 1.5rem;
+
+    background-color: rgb(68, 60, 60);
+}
+.sign-plus{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.faq-last-div{
+    height:auto;
+    width:auto;
+    text-align:center;
+}
